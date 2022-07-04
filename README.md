@@ -19,16 +19,22 @@ enuygun.com case study project created with [Laravel](https://github.com/laravel
     docker-compose up -d --build
     ```
 
-3. Copy .env.example file and rename to .env
+3. Install packages:
+
+    ```bash
+    composer install
+    ```
+
+4. Copy .env.example file and rename to .env
 
 
-4. Generate the application key:
+5. Generate the application key:
 
     ```php
     php artisan key:generate
     ```
 
-4. Create the tables:
+6. Create the tables:
 
     ```php
     php artisan migrate --seed
