@@ -6,7 +6,6 @@ use App\Http\Services\TaskService;
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @method static mixed test()
  * @method static mixed createTasks()
  * @method static mixed getPlan()
  */

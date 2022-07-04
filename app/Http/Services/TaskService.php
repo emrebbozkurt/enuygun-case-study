@@ -16,11 +16,6 @@ class TaskService
         $this->config = $config;
     }
 
-    public function test()
-    {
-        return $this->config;
-    }
-
     public function createTasks(): void
     {
         Task::truncate();
