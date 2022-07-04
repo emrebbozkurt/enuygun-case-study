@@ -31,7 +31,7 @@ enuygun.com case study project created with [Laravel](https://github.com/laravel
 4. Create the tables:
 
     ```php
-    php artisan migrate:fresh --seed
+    php artisan migrate --seed
     ```
 
 ## Usage
